@@ -1,0 +1,28 @@
+# Make terminal things more colorful
+mattmc3/zephyr path:plugins/color
+
+# Source a Fish-like conf.d directory
+mattmc3/zephyr path:plugins/confd
+
+# Set options and aliases related to the dirstack and filesystem
+mattmc3/zephyr path:plugins/directory
+
+# Define common environment variables
+mattmc3/zephyr path:plugins/environment
+
+# Load and initialize the built-in zsh history system
+mattmc3/zephyr path:plugins/history
+
+# Functionality for macOS users
+mattmc3/zephyr path:plugins/macos
+
+# Common shell utilities, aimed at making cross platform work less painful
+mattmc3/zephyr path:plugins/utility
+
+# Lazy load a Fish-like functions directory
+mattmc3/zephyr path:plugins/zfunctions
+
+# add fish-like features
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-history-substring-search
